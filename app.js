@@ -14,3 +14,11 @@ for (let i=0; i<256;i++){
   sqr[i].classList.add("square");
   container.appendChild(sqr[i]);
 }
+
+//permament hover
+sqr.forEach((item) => {
+  item.addEventListener("mouseover", ()=>{
+    item.classList.add("hover-square");
+  })
+
+});

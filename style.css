@@ -14,6 +14,9 @@
   border:solid 1px;
 }
 
-.square:hover{
+/* .square:hover{
+  background-color: yellow;
+} */
+.hover-square{
   background-color: yellow;
 }
