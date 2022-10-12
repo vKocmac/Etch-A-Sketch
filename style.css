@@ -1,22 +1,42 @@
+body{
+
+  display: flex;
+  /* flex-direction:column; */
+  /* align-items: center; */
+  justify-content: space-evenly;
+
+
+}
 .container{
-  width:840px;
-  height:840px;
-  background-color: blue;
+  width:800px;
+  height:800px;
+  background-color: white;
   display:flex;
   flex-wrap: wrap;
-
+  margin-left: -300px;
 }
 
 .square{
-  width:50px;
-  height:50px;
-  background-color: red;
-  border:solid 1px;
+  /* width:12.5px;
+  height:12.5px; */
+  background-color: white;
+  border:solid 0px;
+  outline: 1px solid black;
 }
 
 /* .square:hover{
   background-color: yellow;
 } */
 .hover-square{
-  background-color: yellow;
+  /* background-color: grey; */
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin-left: -300px;
+  margin-top: 100px;
+}
+
+.size{
+  margin-bottom: 10px;
 }
